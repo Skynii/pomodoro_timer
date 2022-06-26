@@ -4,30 +4,50 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Pomodoro Timer</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+   <title> ⏰ || Pomodoro Timer</title>
 </head>
 <body>
+
    <main>
       <section class="nav">
          <nav class="navigation">
             <ul>
-               <li>
-                  <a href="#">Pomodoro</a>
-               </li>
-               <li>
-                  <a href="#">Descanso Curto</a>
-               </li>
-               <li>
-                  <a href="#">Descanso Longo</a>
-               </li>
+               <div class="menu">
+                  <li>
+                     <a href="#">Pomodoro</a>
+                  </li>
+               </div>
+
+               <div class="menu">
+                  <li>
+                     <a href="#">Descanso Curto</a>
+                  </li>
+               </div>
+
+               <div class="menu">
+                  <li>
+                     <a href="#">Descanso Longo</a>
+                  </li>
+               </div>
             </ul>
          </nav>
-      </section>
-
-      <section class="cont">
+         
          <div class="time">
-            <h2>25:00</h2>
+            <div class="counter">
+               <h2>25:00</h2>
+            </div>
+
+            <div class="stop-btn">
+               <p>Pausar</p>
+            </div>
          </div>
+
+       
       </section>
    </main>
 </body>

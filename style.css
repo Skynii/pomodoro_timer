@@ -1,0 +1,88 @@
+:root{
+   --pink: #EB6383;
+   --ligth-pink:#FA9191;
+   --yellow: #FFE9C5;
+   --blue:#B4F2E1;
+   --girls:'Crafty Girls', cursive;
+   --frederica:'Fredericka the Great', cursive;
+}
+
+body{
+   background-color: var(--pink);
+   box-sizing: border-box;
+}
+
+.nav{
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 2rem;
+   height:30rem;
+
+}
+
+ul{
+   display: flex;
+   justify-content: space-around;
+}
+
+ul>.menu{
+   justify-content: space-between;
+   font-size: 1.5rem;
+   font-family: var(--girls);
+   font-weight: bold;
+   color:var(--pink);
+   padding: 5px;
+}
+
+.menu{
+   
+   width: 33%;
+   text-align: center;
+   border-radius: 10px;
+   background: #ffb4b4;
+   border: 2px dotted var(--blue);
+   margin: 5px;
+}
+
+.time{
+   text-align: center;
+   margin-top: 20px;
+   justify-content: center;
+   border-radius: 10px;
+   border: 2px dotted var(--blue);
+   
+   display: flex;
+   
+   flex-direction: column;
+}
+
+.time>.counter{
+   font-size: 5rem;
+   font-family: var(--frederica);
+   color: var(--yellow);
+   height: 80%;
+   align-items: center;
+   text-align: center;
+ 
+}
+
+.stop-btn{
+   font-size: 1.8rem;
+   align-items: flex-end;
+   margin: 10px;
+   height: 5%;
+   background-color:#ffb4b4 ;
+   border-radius: 10px;
+   color:var(--pink);
+   font-family: var(--girls);
+   border: 2px dotted var(--blue);
+   
+}
+
+@media screen and (max-width:800px) {
+
+   ul>.menu{
+      font-size:1.2rem;
+   }
+   
+}

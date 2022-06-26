@@ -6,7 +6,9 @@
 
 ## To-Do:
 
-- [] Html, esboço
-- [] Estilização em Sass.
-- [] Manipulação de objetos.
+- [x] Html, esboço;
+- [x] Estilização em CSS;
+- [] Manipulação de objetos;
+- [] Colocar ToDo list na leteral;
+- [] Colocar campo de notas para log;
  
