@@ -9,7 +9,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Fredericka+the+Great&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="style.css">
-   <title> ⏰ || Pomodoro Timer</title>
+   <title>  Pomodoro Timer || ⏰ </title>
 </head>
 <body>
 
@@ -17,19 +17,19 @@
       <section class="nav">
          <nav class="navigation">
             <ul>
-               <div class="menu">
+               <div class="menu" id="pomodoroBtn">
                   <li>
-                     <a href="#">Pomodoro</a>
+                     <a href="#" >Pomodoro</a>
                   </li>
                </div>
 
-               <div class="menu">
+               <div class="menu" id="pausaCurtaBtn">
                   <li>
                      <a href="#">Descanso Curto</a>
                   </li>
                </div>
 
-               <div class="menu">
+               <div class="menu" id="pausaLongaBtn">
                   <li>
                      <a href="#">Descanso Longo</a>
                   </li>
@@ -39,16 +39,18 @@
          
          <div class="time">
             <div class="counter">
-               <h2>25:00</h2>
+               <h2 id="counter">25:00</h2>
             </div>
 
             <div class="stop-btn">
-               <p>Pausar</p>
+               <p>Iniciar</p>
             </div>
          </div>
 
-       
+      
       </section>
    </main>
+
+   <script src="contador.js"></script>
 </body>
 </html>
