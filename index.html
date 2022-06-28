@@ -17,33 +17,48 @@
       <section class="nav">
          <nav class="navigation">
             <ul>
-               <div class="menu" id="pomodoroBtn">
+               <button
+               data-mode = "pomodoro"
+               class="menu active mode-button" 
+               id="pomodoroBtn">
                   <li>
-                     <a href="#" >Pomodoro</a>
+                     <p >Pomodoro</p>
                   </li>
-               </div>
+               </button>
 
-               <div class="menu" id="pausaCurtaBtn">
+               <button
+               data-mode = "short-break"
+               class="menu mode-button" 
+                id="pausaCurtaBtn">
                   <li>
-                     <a href="#">Descanso Curto</a>
+                     <p>Descanso Curto</p>
                   </li>
-               </div>
+               </button>
 
-               <div class="menu" id="pausaLongaBtn">
+               <button data-mode = "long-break"
+               class="menu mode-button"  
+               id="pausaLongaBtn">
                   <li>
-                     <a href="#">Descanso Longo</a>
+                     <p>Descanso Longo</p>
                   </li>
-               </div>
+               </button>
             </ul>
          </nav>
          
          <div class="time">
             <div class="counter">
-               <h2 id="counter">25:00</h2>
+               <span id="minutes">25</span>
+               <span class="separator">:</span>
+               <span id="seconds">00</span>
             </div>
 
-            <div class="stop-btn">
-               <p>Iniciar</p>
+            <div class="btn">
+               <span id="start-btn">
+                  Iniciar
+               </span>
+               <span id="stop-btn">
+                  Parar
+               </span>
             </div>
          </div>
 

@@ -10,8 +10,8 @@ const timer = {
    longBreakInterval: 4,
 };
 
-const menuBtn = document.querySelectorAll('.menu').addEventListener('click',function handleMode);
-
+const menuBtn = document.querySelectorAll('.menu');
+menuBtn.addEventListener('click', handleMode);
 
 function updateTimer() {
    const { remaingTime } = timer;
@@ -45,7 +45,7 @@ function switchMode(mode) {
 }
 
 function handleMode(event) {
-   const { mode } = event.target.dataset;
+   const {mode} = event.target.dataset;
 
    if (!mode) return;
 
