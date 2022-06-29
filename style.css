@@ -5,9 +5,9 @@
    --blue:#B4F2E1;
    --girls:'Crafty Girls', cursive;
    --frederica:'Fredericka the Great', cursive;
-   --pomodoro:#A084CF;
-   --shortBreak: #54BAB9;
-   --longBreak: #FF85B3
+   --pomodoro:#FA9190;
+   --shortBreak: #A084CF;
+   --longBreak: #FF85B3;
 }
 
 body{
@@ -23,12 +23,12 @@ body{
 
 }
 
-ul{
+.navigation{
    display: flex;
    justify-content: space-around;
 }
 
-ul>.menu{
+.navigation{
    justify-content: space-between;
    font-size: 1.5rem;
    font-family: var(--girls);
@@ -103,7 +103,7 @@ ul>.menu{
 
 @media screen and (max-width:800px) {
 
-   ul>.menu{
+   .navigation{
       font-size:1.2rem;
    }
    

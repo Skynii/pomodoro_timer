@@ -8,7 +8,8 @@
 
 - [x] Html, esboço;
 - [x] Estilização em CSS;
-- [] Add evento nos botões de navegação;
+- [x] Add evento nos botões de navegação;
+- [x] Fundo mudando de cor ao clicar no botão de modo;
 - [] Botão de pausar, começa em Start, após clicado vira pausar;
 - [] Tocar som ao finalziar alarme;
 - [] Colocar ToDo list na leteral;

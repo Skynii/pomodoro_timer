@@ -15,41 +15,35 @@
 
    <main>
       <section class="nav">
-         <nav class="navigation">
-            <ul>
+         <nav class="navigation button-group mode-buttons " id="mode-buttons">
+            
                <button
                data-mode = "pomodoro"
                class="menu active mode-button" 
                id="pomodoroBtn">
-                  <li>
-                     <p >Pomodoro</p>
-                  </li>
+                  Pomodoro
                </button>
 
                <button
-               data-mode = "short-break"
+               data-mode = "shortBreak"
                class="menu mode-button" 
-                id="pausaCurtaBtn">
-                  <li>
-                     <p>Descanso Curto</p>
-                  </li>
+               id="pausaCurtaBtn">
+                  Descanso Curto
                </button>
 
-               <button data-mode = "long-break"
+               <button data-mode = "longBreak"
                class="menu mode-button"  
                id="pausaLongaBtn">
-                  <li>
-                     <p>Descanso Longo</p>
-                  </li>
+               Descanso Longo
+                  
                </button>
-            </ul>
          </nav>
          
          <div class="time">
             <div class="counter">
-               <span id="minutes">25</span>
+               <span id="min">25</span>
                <span class="separator">:</span>
-               <span id="seconds">00</span>
+               <span id="sec">00</span>
             </div>
 
             <div class="btn">
