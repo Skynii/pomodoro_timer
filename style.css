@@ -6,15 +6,30 @@
    --girls:'Crafty Girls', cursive;
    --frederica:'Fredericka the Great', cursive;
    --pomodoro:#FA9190;
-   --shortBreak: #A084CF;
+   --shortBreak:#A084CF;
    --longBreak: #FF85B3;
 }
 
 body{
    background-color: var(--pink);
    box-sizing: border-box;
+   height: 100%;
 }
 
+header{
+   width:80%;
+   margin: 0 auto;
+}
+
+header>h1{
+   text-align:center;
+   margin: 15px;
+   font-size: 2.5em;
+   font-family:var(--frederica);
+   font-weight: bold;
+   color:var(--yellow)
+
+}
 .nav{
    width: 70%;
    margin: 0 auto;
@@ -84,13 +99,12 @@ body{
    
    align-items: flex-end;
    height: 5%;
-   margin: 25px;
    
 }
 
-.btn>span{
+.btn>button{
    flex-direction: column;
-   margin: 25px;
+   margin: 15px;
    padding:2px;
    color:var(--pink);
    background-color:#ffb4b4 ;
@@ -101,6 +115,43 @@ body{
    border: 2px dotted var(--blue);
 }
 
+.hidden{
+   display:none;
+}
+footer{
+   
+   width: 80%;
+   margin:0 auto;
+   font-size: 1.4rem;
+   text-align: center;
+   font-family: var(--girls)
+}
+
+
+@media screen and (max-width:600px) {
+
+   .navigation{
+      
+      flex-direction: column;
+   }
+
+   .menu{
+      width:100%;
+      font-size:1rem;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom:5px;
+   }
+
+   .time>.counter{
+      font-size: 3rem;
+   }
+
+   .btn>button{
+      font-size: 1.0rem;
+   }
+    
+}
 @media screen and (max-width:800px) {
 
    .navigation{

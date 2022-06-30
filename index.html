@@ -14,6 +14,10 @@
 <body>
 
    <main>
+
+      <header>
+         <h1>Pomodoro Timer</h1>
+      </header>
       <section class="nav">
          <nav class="navigation button-group mode-buttons " id="mode-buttons">
             
@@ -47,19 +51,26 @@
             </div>
 
             <div class="btn">
-               <span id="start-btn">
-                  Iniciar
-               </span>
-               <span id="stop-btn">
-                  Parar
-               </span>
+               <button id="start-btn"
+               data-action ="start">
+               Iniciar
+               </button>
             </div>
          </div>
-
+         <audio src="assets/clock-alarm.mp3" class="hidden" data-sound="pomodoro"></audio>
+   <audio src="assets/clock-alarm.mp3" class="hidden" data-sound="shortBreak"></audio>
+   <audio src="assets/clock-alarm.mp3" class="hidden" data-sound="longBreak"></audio>
       
       </section>
    </main>
+   
+   <footer>
+      <p>&copy Érica Joice</p>
+   </footer>
+   
 
    <script src="contador.js"></script>
+
+
 </body>
 </html>
