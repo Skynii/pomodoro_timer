@@ -10,6 +10,11 @@
    --longBreak: #FF85B3;
 }
 
+main{
+   display:flex;
+   width: 90%;
+   margin:0 auto;
+}
 body{
    background-color: var(--pink);
    box-sizing: border-box;
@@ -21,7 +26,7 @@ header{
    margin: 0 auto;
 }
 
-header>h1{
+h1{
    text-align:center;
    margin: 15px;
    font-size: 2.5em;
@@ -31,7 +36,7 @@ header>h1{
 
 }
 .nav{
-   width: 70%;
+   max-width: 40%;
    margin: 0 auto;
    margin-top: 2rem;
    height:30rem;
@@ -127,6 +132,13 @@ footer{
    font-family: var(--girls)
 }
 
+
+section.to-do{
+   background: blueviolet;
+
+   max-width: 60%;
+   
+}
 
 @media screen and (max-width:600px) {
 
