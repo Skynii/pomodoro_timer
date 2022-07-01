@@ -10,8 +10,10 @@
 - [x] Estilização em CSS;
 - [x] Add evento nos botões de navegação;
 - [x] Fundo mudando de cor ao clicar no botão de modo;
-- [] Botão de pausar, começa em Start, após clicado vira pausar;
-- [] Tocar som ao finalziar alarme;
+- [x] Botão de pausar, começa em Start, após clicado vira pausar;
+- [x] Tocar som ao finalizar alarme;
 - [] Colocar ToDo list na leteral;
 - [] Colocar campo de notas para log;
  
+## Execução
+
