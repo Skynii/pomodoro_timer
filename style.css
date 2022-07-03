@@ -107,7 +107,7 @@ h1{
    
 }
 
-.btn>button{
+.btn>button, .btn-add{
    flex-direction: column;
    margin: 15px;
    padding:2px;

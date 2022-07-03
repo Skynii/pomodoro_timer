@@ -12,8 +12,12 @@
 - [x] Fundo mudando de cor ao clicar no botão de modo;
 - [x] Botão de pausar, começa em Start, após clicado vira pausar;
 - [x] Tocar som ao finalizar alarme;
-- [] Colocar ToDo list na leteral;
+
+- [] Colocar ToDo list na lateral;
+   * [x] Input para descrever o list;
+   * [] Botão par adicionar tarefas;
+   * 
 - [] Colocar campo de notas para log;
- 
+- [] Responsividade
 ## Execução
 

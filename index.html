@@ -66,14 +66,14 @@
 
         <div class="input">
         
-         <input type="text" class="add" placeholder="Preciso fazer ...">
+         <input class="add-text" id="text" placeholder="Preciso fazer ...">
         
-         <button type="submit" class="btn-add">+</button>
+         <span class="btn-add" onclick="addTask()">+</span>
 
          <div>
-            <ul>
-               <li>Atualizar Linkedin</li>
-               <li>Estudar sobre DOM</li>
+            <ul class ="list" id ="myList">
+               <li class = "">Atualizar Linkedin</li>
+               <li class="checked">Estudar sobre DOM</li>
                <li>Comprar ração para Alfajor</li>
                <li>Definir novo projeto</li>
             </ul>
@@ -88,6 +88,7 @@
    
 
    <script src="contador.js"></script>
+   <script src="todo.js"></script>
 
 
 </body>
