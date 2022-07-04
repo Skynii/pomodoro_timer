@@ -15,8 +15,10 @@
 
 - [] Colocar ToDo list na lateral;
    * [x] Input para descrever o list;
-   * [] Botão par adicionar tarefas;
-   * 
+   * [x] Botão par adicionar tarefas;
+   * [x] Botão de excluir;
+   * [] CheckBox para cada atividade;
+   * [] Riscar cada atividade concluida;
 - [] Colocar campo de notas para log;
 - [] Responsividade
 ## Execução

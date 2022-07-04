@@ -148,7 +148,7 @@ function addTask() {
 
    //! when button is clicked, the task go to the last line.
    var span =document.createElement("span");
-   var text1 = document.createTextNode("\u00D7") //? Checkbox;
+   var text1 = document.createTextNode("\u00D7") //? X para fechar;
 
    span.className = "close";
    span.appendChild(text1);

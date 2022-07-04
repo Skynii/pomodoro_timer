@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Satisfy&display=swap');
+
+:root{
+   --pink: #EB6383;
+   --ligth-pink:#FA9191;
+   --yellow: #FFE9C5;
+   --blue:#B4F2E1;
+   --girls:'Crafty Girls', cursive;
+   --frederica:'Fredericka the Great', cursive;
+   --pomodoro:#FA9190;
+   --shortBreak:#A084CF;
+   --longBreak: #FF85B3;
+}
+
+section.to-do{
+   
+   font-family:var(--girls);
+   max-width: 60%;
+   
+}
+
+.list>li{
+   cursor: pointer;
+   position:relative;
+   padding: 5px 3px 12px 20px;
+   font-size: 1rem;
+   list-style-type: none;
+   border: 1px dashed var(--blue);
+   border-radius: 5px;
+
+   
+   transition:0.2s;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+ul li.checked{
+   background-color: var(--yellow);
+   color:var(--pink);
+   font-family: var(--girls);
+   text-decoration: line-through;
+}
+
+.checked:before{
+   content:'';
+   position:absolute;
+   border-color: var(--pink);border-style: solid;
+   border-width: 0 2px 2px 0;
+   top: 10px;
+   left: 16px;
+   transform: ritate(45deg);
+   height: 15px;
+   width:7px;
+   font-family: var(girls);
+   font-weight: bold;
+}
+.close{
+   position: absolute;
+   right: 0;
+   top:0;
+   color: var(--pink);
+   padding: 12px 16px;
+   
+   
+}
+
+.close:hover{
+   
+   color:var(--yellow)
+}

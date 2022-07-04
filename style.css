@@ -133,12 +133,7 @@ footer{
 }
 
 
-section.to-do{
-   background: blueviolet;
 
-   max-width: 60%;
-   
-}
 
 @media screen and (max-width:600px) {
 
