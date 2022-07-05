@@ -14,11 +14,13 @@ main{
    display:flex;
    width: 90%;
    margin:0 auto;
+
 }
 body{
    background-color: var(--pink);
    box-sizing: border-box;
    height: 100%;
+   box-sizing: border-box;
 }
 
 header{
@@ -50,7 +52,7 @@ h1{
 
 .navigation{
    justify-content: space-between;
-   font-size: 1.5rem;
+   font-size: 1rem;
    font-family: var(--girls);
    font-weight: bold;
    color:var(--pink);
@@ -107,7 +109,7 @@ h1{
    
 }
 
-.btn>button, .btn-add{
+.btn>button{
    flex-direction: column;
    margin: 15px;
    padding:2px;
@@ -136,7 +138,22 @@ footer{
 
 
 @media screen and (max-width:600px) {
+   main{
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+   }
 
+   section{
+      
+   }
+   h1{
+      font-size:1rem;
+   }
+
+   .nav{
+      width: 100%;
+   }
    .navigation{
       
       flex-direction: column;
@@ -155,14 +172,16 @@ footer{
    }
 
    .btn>button{
-      font-size: 1.0rem;
+      font-size: 0.5rem;
    }
     
 }
 @media screen and (max-width:800px) {
-
+   h1{
+      font-size:2rem;
+   }
    .navigation{
-      font-size:1.2rem;
+      font-size:0.8rem;
    }
    
 }
