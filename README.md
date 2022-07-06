@@ -4,6 +4,10 @@
 
 - Contador Pomodoro, com pausas curtas e longas.
 
+## Deploy
+-------------------
+https://pomodoro-skyni.netlify.app/
+
 ## To-Do:
 
 - [x] Html, esboço;
