@@ -15,8 +15,8 @@
 section.to-do{
    
    font-family:var(--girls);
-   max-width: 60%;
-   margin:0 auto;
+   max-width: 50%;
+   margin:10px auto;
    margin-top: 2rem
 }
 
@@ -43,12 +43,13 @@ ul li.checked{
    color:var(--pink);
    text-decoration: line-through;
    
-   
 }
 
 li{
-   margin: 
+   margin:5px;
 }
+
+
 ul li.checked:before{
    content:'';
    position:absolute;

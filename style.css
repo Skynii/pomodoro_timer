@@ -12,20 +12,17 @@
 
 main{
    display:flex;
-   width: 90%;
-   margin:0 auto;
+   max-width: 100%;
+   
+
+
 
 }
 body{
    background-color: var(--pink);
    box-sizing: border-box;
-   height: 100%;
+   max-height: 100%;
    box-sizing: border-box;
-}
-
-header{
-   width:80%;
-   margin: 0 auto;
 }
 
 h1{
@@ -38,8 +35,8 @@ h1{
 
 }
 .nav{
-   max-width: 40%;
-   margin: 0 auto;
+   max-width: 50%;
+   margin: 10px auto;
    margin-top: 2rem;
    height:30rem;
 
@@ -131,7 +128,8 @@ footer{
    margin:0 auto;
    font-size: 1.4rem;
    text-align: center;
-   font-family: var(--girls)
+   font-family: var(--girls);
+   color:var(--pink)
 }
 
 
@@ -144,9 +142,6 @@ footer{
       width: 100%;
    }
 
-   section{
-      
-   }
    h1{
       font-size:1rem;
    }
